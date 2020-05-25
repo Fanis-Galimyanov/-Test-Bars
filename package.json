@@ -1,0 +1,16 @@
+{
+  "name": "galimyanov_f_a",
+  "version": "1.0.0",
+  "description": "educational work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "doctors",
+    "specialty",
+    "salary"
+  ],
+  "author": "Fanis Galimyanov",
+  "license": "ISC"
+}

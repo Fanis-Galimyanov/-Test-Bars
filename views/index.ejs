@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Галимянов Фанис Анисович</title>
+  <meta charset="utf-8">
+ </head>
+ <body>
+<table border="1" width="100%" cellpadding="5">
+  <tr>
+        <th> ФИО </th>
+        <th> Специальность </th>
+        <th> Общая заработная плата за 2019 год </th>
+  </tr>
+<%   for(let key of select_query.keys()){ %>
+<%            if(select_query[key].salary > 2500){  %>
+  <tr>
+        <th><%= select_query[key].full_name %> </th>
+        <th><%= select_query[key].spec %> </th>
+        <th><%= select_query[key].salary %> </th>
+  </tr>
+<%   } %>
+<% } %>
+</table>
+ </body>
+</html>
